@@ -1,0 +1,232 @@
+.pos {
+  height: 38px;
+  line-height: 38px;
+  text-align: left;
+  font-family: "\5B8B\4F53";
+}
+.pos a {
+  color: #666;
+}
+.pos i {
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  margin: 0 2px;
+}
+.art {
+  margin-bottom: 45px;
+}
+.art .smail {
+  width: 402px;
+  float: left;
+}
+.art .smail .icon_text_b {
+  width: 75px;
+  height: 47px;
+  padding-right: 6px;
+  background: url("../img/deal_y3.468da382.png") no-repeat -10px -5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 18px;
+  padding-top: 3px;
+  position: absolute;
+  top: 208px;
+  left: 72px;
+  z-index: 2;
+  font-size: 12px;
+}
+.art .smail .smail_box {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.art .smail img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.art .smail .make {
+  width: 120px;
+  height: 120px;
+  background: rgba(202, 130, 9, 0.65);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.art .smail .list {
+  width: 80%;
+  height: 80px;
+  padding: 0 5px;
+  float: left;
+  overflow: hidden;
+}
+.art .smail ul {
+  width: 408px;
+  height: 60px;
+  transition: all 0.5s;
+  float: left;
+}
+.art .smail li {
+  height: 100%;
+  width: 58px;
+  margin-right: 8px;
+  float: left;
+  border: 1px solid #e5e5e5;
+}
+.art .smail li > img {
+  width: 100%;
+  height: 100%;
+}
+.art .smail .panelC {
+  width: 400px;
+  float: left;
+  margin-top: 20px;
+  text-align: left;
+}
+.art .smail .panelC p {
+  float: left;
+  margin-right: 20px;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+.art .smail .panelC p a {
+  color: #666;
+}
+.art .smail .panelC p i {
+  width: 16px;
+  height: 14px;
+  overflow: hidden;
+  float: left;
+  background: url("../img/p_Spirit1-3.95484520.png") no-repeat;
+}
+.art .smail .panelC .sc i {
+  background-position: 0 -192px;
+  vertical-align: middle;
+}
+.art .smail .panelC .fx i {
+  background-position: -32px -192px;
+}
+.art .smail .panelC .jb i {
+  background-position: -64px -192px;
+}
+.art .big {
+  float: left;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  top: 208px;
+  left: 500px;
+  z-index: 1;
+}
+.art .big > img {
+  display: block;
+  width: 1080px;
+  height: 1080px;
+}
+.detailmeta {
+  width: 745px;
+  text-align: left;
+  margin-left: 53px;
+}
+.detailmeta .wrap {
+  width: 549px;
+  margin-left: -18px;
+}
+.detailmeta h1 {
+  font: 700 16px/24px "\5FAE\8F6F\96C5\9ED1";
+  color: #333;
+  margin: -3px 0 1px 0;
+  position: relative;
+}
+.detailmeta .panelA {
+  width: 512px;
+  float: left;
+  margin: 11px 0 0;
+}
+.detailmeta .panelA .price {
+  color: #ec1611;
+  font: 700 16px/30px "\5FAE\8F6F\96C5\9ED1";
+}
+.detailmeta .panelA .price i {
+  font-size: 26px;
+  margin-left: 3px;
+}
+.detailmeta .panelA .price del {
+  color: #666;
+  font: 12px '微软雅黑';
+  margin-left: 10px;
+}
+.detailmeta .panelA .new_bg {
+  width: 46px;
+  height: 18px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  padding-right: 3px;
+  background: url("../img/new1.ccb9914b.png") no-repeat;
+  margin: 30px 0 0 16px;
+}
+.detailmeta .panelA dd {
+  width: 454px;
+  float: left;
+  margin-left: 72px;
+  margin-top: -18px;
+}
+.detailmeta .panelA dd p {
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 10px;
+  background: #fff;
+}
+.detailmeta .panelA dd p i {
+  width: 26px;
+  height: 28px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font: 700 18px/26px "\5FAE\8F6F\96C5\9ED1";
+  background: url("../img/p_Spirit6.b652a725.png") no-repeat 1px -179px;
+}
+.detailmeta .panelA dd p input {
+  float: left;
+  border-width: 0 1px;
+  font-family: arial;
+  border-color: #ccc;
+  border-style: solid;
+  width: 38px;
+  height: 18px;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+.detailmeta .panelA dd p i.decrease {
+  background-position: -1px -179px;
+}
+.detailmeta .panelA dd p i.increase {
+  background-position: -1px -240px;
+}
+.detailmeta .submit {
+  margin-top: 13px;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.detailmeta .submit span input {
+  width: 160px;
+  height: 55px;
+  color: #fff;
+  text-align: center;
+  font: 20px/36px '\5FAE\8F6F\96C5\9ED1';
+  border: 1px solid #ec1611;
+}
+.detailmeta .submit .s2 input {
+  background: #fff;
+  color: #ec1611;
+}
+.detailmeta .submit .cart input {
+  background: #ec1611;
+  margin-left: 15px;
+}

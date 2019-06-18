@@ -1,0 +1,196 @@
+.goodlist {
+  width: 100%;
+  height: 100%;
+  background: #e2e7eb;
+}
+.list .lis {
+  padding-top: 30px;
+}
+.list .lis .sort_wrap {
+  height: 36px;
+  border: 0;
+  background: #fff;
+}
+.list .lis .sort_wrap a {
+  float: left;
+  width: 60px;
+  height: 36px;
+  border-right: 1px solid #f2f2f2;
+  text-align: center;
+  font: 12px/36px "microsoft yahei";
+  color: #666;
+}
+.list .lis .sort_wrap a:hover {
+  color: #ec1611;
+}
+.list .lis .sort_wrap a.sort_nav {
+  color: #fff;
+  background-color: #ec1611;
+}
+.list .lis .sort_wrap .sort_price span {
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+}
+.list .lis .sort_wrap .sort_price span i {
+  display: block;
+  border: 4px solid #ccc;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-size: 0;
+}
+.list .lis .sort_wrap .sort_price span .up_triangle {
+  margin-bottom: 2px;
+  border-top: 0;
+}
+.list .lis .sort_wrap .sort_price span .down_triangle {
+  border-bottom: 0;
+}
+.list .lis .sort_wrap .sort_screen {
+  width: 112px;
+}
+.list .lis .sort_wrap .sort_screen i {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background: url("../img/brand_sort.png") no-repeat;
+}
+.deal_wrap {
+  padding-top: 15px;
+}
+.deal_wrap .brand_title {
+  height: 45px;
+  color: #ec1611;
+  background: url("../img/brand_border.png") repeat-x left bottom;
+  font: 20px/45px 'microsoft yahei';
+  text-align: left;
+  margin-bottom: 15px;
+}
+.deal_wrap .brand_title .title_icon {
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  background: url("../img/brand_title.png") no-repeat -38px 0;
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+}
+.shoplist {
+  padding-left: 0;
+}
+.shoplist .dealbox {
+  padding-left: 0;
+  margin-left: -10px;
+}
+.shoplist .dealbox .deal {
+  overflow: hidden;
+  display: inline;
+  float: left;
+}
+.shoplist .dealbox .deal .list-con {
+  width: 283px;
+  height: 345px;
+  margin: 0 8px 55px;
+  position: relative;
+  display: inline;
+  float: left;
+  z-index: 100;
+  text-align: left;
+  line-height: 20px;
+  background: #fff;
+}
+.shoplist .dealbox .deal .list-con h3 {
+  padding: 5px 10px 0 12px;
+  height: 20px;
+  width: 261px;
+  text-align: left;
+  font: 12px/20px Arial, "microsoft yahei";
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #fff;
+  overflow: hidden;
+}
+.shoplist .dealbox .deal .list-con h3 a {
+  color: #666;
+}
+.shoplist .dealbox .deal .list-con h4 {
+  width: 263px;
+  padding: 0 8px 2px 12px;
+  height: 34px;
+  position: relative;
+  text-align: left;
+  background: #fff;
+  line-height: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 999;
+}
+.shoplist .dealbox .deal .list-con h4 em {
+  display: inline-block;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 30px;
+  color: #ec1611;
+  font-weight: 400;
+  font: 22px/33px Arial;
+}
+.shoplist .dealbox .deal .list-con h4 del.list_price {
+  font-size: 12px;
+  color: #999;
+  font-family: "microsoft yahei";
+}
+.shoplist .dealbox .deal .list-con h4 span {
+  float: right;
+  color: #999;
+}
+.shoplist .dealbox .deal .list-con > a {
+  font-size: 0;
+  display: block;
+  background-color: #fff;
+}
+.page_div {
+  position: relative;
+  height: 42px;
+  margin-bottom: 22px;
+  padding: 20px 0 28px;
+}
+.page_div .list_page {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.page_div .list_page span {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.page_div .list_page .prev {
+  background: url("../img/prev_nextpng.png") no-repeat;
+}
+.page_div .list_page .prev.notclick {
+  background-position: -46px -32px;
+}
+.page_div .list_page a {
+  float: none;
+  font: 14px/30px Arial, "microsoft yahei";
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  color: #666;
+}
+.page_div .list_page .current {
+  color: #ff404c;
+}
+.page_div .list_page .next {
+  background: url("../img/prev_nextpng.png") no-repeat;
+}
+.page_div .list_page .next.canclick {
+  background-position: -46px 0;
+}

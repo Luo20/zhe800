@@ -1,0 +1,257 @@
+/* 
+* @Author: Marte
+* @Date:   2019-06-06 13:57:56
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-06-14 16:19:23
+*/
+/*头部*/
+.header{
+    width: 100%;
+    height: 87px;
+}
+.area{
+    width: 980px;
+    height: 57px;
+    margin:0 auto;
+    padding: 20px 0 10px;
+}
+.area .logo a{
+    display: inline-block;
+    width: 232px;
+    height: 57px;
+    float: left;
+    background:url("../img/logo20172x.jpg") no-repeat;
+}
+.header span{
+    float: right;
+    margin: 35px 0 0;
+}
+.header span a{
+    color: #428bca;
+}
+.header span a:hover{
+    text-decoration: underline;
+}
+
+/*main*/
+.register{
+    width: 860px;
+    padding: 40px 60px; 
+    margin:0 auto;
+    background: #fff;
+}
+.reg-left{
+    width: 430px;
+    float:left;
+    text-align: left;
+}
+.reg-left .row1 {
+    line-height: 26px;
+}
+.reg-left .item{
+    padding: 15px 0 15px 74px;
+    position: relative;
+    width: 356px;
+    zoom: 1;
+}
+.reg-left .item label{
+    display: inline;
+    color: #333;
+    width: 74px;
+    height: 36px;
+    margin-left: -74px;
+    text-align: right;
+    float: left;
+    font: 14px/36px "宋体";
+}
+.reg-left .item .itext1{
+    color: #999;
+    width: 290px;
+    height: 30px;
+    text-indent: 5px;
+    border: 1px solid #d2d2d2;
+    padding: 2px 3px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.msgbox{
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 74px;
+}
+.msg_zt1 em{
+    display: none;
+}
+.msgbox em{
+    width: 26px;
+    height: 26px;
+    float: left;
+    background:url("../img/ico1.png") no-repeat;
+    margin-right: 4px;
+}
+#drag{ 
+    position: relative;
+    background-color: #e8e8e8;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    left: 70px;
+    top: 15px;
+}
+#drag .handler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 32px;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+.handler_bg{
+    background: #fff url("../img/jiantou1.png") no-repeat center;
+}
+.handler_ok_bg{
+    background: #fff url("../img/gou.png") no-repeat center;
+}
+#drag .drag_bg{
+    background-color: #7ac23c;
+    height: 34px;
+    width: 0px;
+}
+#drag .drag_text{
+    position: absolute;
+    top: 0px;
+    width: 300px; 
+}
+.icon{
+    margin-top: 30px;
+}
+.reg-left .item .itext2{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #d2d2d2;
+    padding: 2px 3px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.reg-left .icon #vcode_box a {
+    color: black;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 155px;
+    height: 34px;
+    background: #f6f6f6;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 10px;
+}
+.reg-left .i_txt p{
+    color: #666;
+    margin-bottom: 4px;
+}
+.reg-left .i_txt p a{
+    color: #666;
+}
+.reg-left .i_txt p a:hover{
+    text-decoration: underline;
+}
+.i_btn1{
+    width: 178px;
+}
+.i_btn{
+    border-top: 1px solid #e93a3a;
+    border-bottom: 1px solid #e93a3a;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.i_btn i{
+    font-size: 14px;
+    border-left: 1px solid #e93a3a;
+    border-right: 1px solid #e93a3a;
+    margin: 0 -1px;
+    display: block;
+    font-style: normal;
+    color: #fff;
+    background: #ff3b37;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.reg-right{
+    width: 430px;
+    float: right;
+}
+.moreps{
+    position: relative;
+    margin: 40px 0 -7px 138px;
+    float: left;
+    display: inline;
+    background: #fff;
+    padding: 0 5px;
+    z-index: 11;
+}
+.morelogin{
+    width: 395px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    border-top: 1px solid #ebebeb;
+    padding: 20px 0 20px 35px;
+    text-align: left;
+}
+.morelogin .i_btn2{
+    width: 108px;
+    float: left;
+    border-color: #d5d5d5;
+    text-align: left;
+    text-indent: 35px;
+    margin: 10px 0 0 16px;
+}
+.morelogin .i_btn2 i{
+    color: #666;
+    border-color: #d5d5d5;
+}
+.morelogin .i_btn2 i{
+    background: #f6f6f6 url(../img/ico2.png) no-repeat;
+}
+.morelogin .qq i {
+    background-position: 0 -2px;
+}
+.morelogin .baidu i {
+    background-position: 0 -36px;
+}
+.morelogin span{
+    width: 35px;
+    height: 17px;
+    float: left;
+    margin: 20px 0 0 16px;
+    display: inline-block;
+    background: url(../img/j.png) 35px -16px no-repeat;
+    cursor: pointer;
+    padding: 0 10px;
+}
+#footer{
+    color: #999;
+}
+#footer{
+    line-height: 22px;
+    padding: 30px 0;
+    font-family: arial;
+}
+#footer a{
+    color: #333;
+}
+#footer a:hover{
+    color: #C00;
+    text-decoration: underline;
+}
